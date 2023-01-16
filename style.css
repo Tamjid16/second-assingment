@@ -1,0 +1,273 @@
+#bg{
+    background-color: rgb(255, 244, 232);
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 150px;
+}
+nav a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    top: 20px;
+    right: 300px;
+}
+/* for brand class in header*/
+.brand{
+    position: relative;
+    width: 562px;
+    height: 225px;
+    left: 450px;
+    top: 120px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 75px;
+    text-align: center;
+}
+.img{
+position: absolute;
+width: 800px;
+height: 668px;
+left: 300px;
+right: 200px;
+top: 600px;
+
+background: url(group-three-modern-architects.jpg);
+border-radius: 8px;
+}
+.para{
+    position: relative;
+    top: 90px;
+    width: 1440px;
+    height: 668px;
+    left: 420px;
+}
+.btn{
+    background-color:darkorange;
+    border: none;
+    border-radius: 7px;
+    width: 92px;
+    height: 30px;
+    position: absolute;
+    color: rgb(249, 247, 244);
+    top: 500px;
+    left: 45%;
+    
+}
+.body{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    left: 20%;
+    top: 15%;
+}
+.list{
+    position: absolute;
+    width: 468px;
+    height: 100px;
+    left: 785px;
+    top: 0px;
+}
+
+.bd{
+    width: 1600px;
+    height: 600px;
+    
+}
+
+.button{
+    background-color:darkorange;
+    border: none;
+    border-radius: 7px;
+    width: 92px;
+    height: 30px;
+    position: relative;
+    color: rgb(249, 247, 244);
+    left: 55%;
+    top: 35%;
+}
+#bl{
+    position: relative;
+    display: flex;
+   }
+#arch{
+    position: absolute;
+    left: 55%;
+    top: 1650px;
+}
+#fea{
+    position: relative;
+    left: 10%;
+    top: 370px;
+    width: 300px;
+}
+#box1{
+    position: relative;
+    border: 1px solid floralwhite;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(228, 230, 232);
+    width: 350px;
+    height: 105px;
+    left: 10%;
+    border-radius: 10px;
+    margin-top: 330px;
+    
+}
+#box2{
+    position: relative;
+    border: 1px solid floralwhite;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(228, 230, 232);
+    width: 350px;
+    height: 105px;
+    left: 10%;
+    border-radius: 10px;
+}
+#box3{
+    position: relative;
+    border: 1px solid floralwhite;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(228, 230, 232);
+    width: 350px;
+    height: 105px;
+    left: 10%;
+    border-radius: 10px;
+}
+#box4{
+    position: relative;
+    border: 1px solid floralwhite;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(228, 230, 232);
+    width: 350px;
+    height: 105px;
+    left: 10%;
+    border-radius: 10px;
+}
+.bttn{
+    background-color:darkorange;
+    border: none;
+    border-radius: 7px;
+    width: 138px;
+    height: 80px;
+    position: relative;
+    color: rgb(249, 247, 244);
+    left: 48%;
+    font-size: 20px;
+}
+.bttn:hover{
+    font-style: italic;
+}
+.icn{
+    position: relative;
+    left: 20%;
+    font-size: 20px;
+    text-align: left;
+    border: 5px solid red;
+    width: 110px;
+    height: 110px;
+    padding: 50px;
+    display: block;
+    transition: transform 10s;
+}
+.icn:hover{
+    transform: rotate(360deg);
+}
+.fact{
+    position: relative;
+    left: 10%;
+    
+}
+.mail{
+    position: relative;
+    left: 25%;
+    
+    font-size: 20px;
+    text-align: left;
+    border: 5px solid red;
+    width: 110px;
+    height: 110px;
+    padding: 50px;
+    display: block;
+    transition: transform 10s;
+
+}
+.mail:hover{
+    transform: rotate(360deg);
+}
+#display{
+    display: flex;
+}
+.project{
+    position: relative;
+    left: 30%;
+    font-size: 20px;
+    text-align: left;
+    border: 5px solid red;
+    width: 110px;
+    height: 110px;
+    padding: 50px;
+    display: block;
+    transition: transform 10s;
+}
+.project:hover{
+    transform: rotate(360deg);
+}
+.rbn{
+    position: relative;
+    left: 35%;
+    font-size: 20px;
+    text-align: left;
+    border: 5px solid red;
+    width: 110px;
+    height: 110px;
+    padding: 50px;
+    display: block;
+    transition: transform 10s;
+}
+.rbn:hover{
+    transform: rotate(360deg) ;
+}
+.our{
+    position: relative;
+    text-align: center;
+    top: 90px;
+}
+.spnsr{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 90px;
+    
+}
+.copy{
+    position: relative;
+    top: 100px;
+    background-color: bisque;
+    border: none solid peachpuff;
+    border-radius: 10px;
+    text-align: center;
+    width: 800px;
+    left: 20%;
+
+}
+
+.last{
+    position: relative;
+    top: 200px;
+    background-color: bisque;
+    color: deeppink;
+    padding-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 1500px;
+    transition: width 10s;
+}
+.last:hover{
+    width: 600px;
+}
